@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LunchLog Website
 
-## Getting Started
+School Lunches Made Simple.
 
-First, run the development server:
+LunchLog is a smarter, simpler way for Irish schools and parents/guardians to order government-funded lunches from suppliers. No more paper slips, last-minute changes, or confusion.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **Quick Pupil Setup:** Teachers print secure registration letters. Parents/Guardians enter a code to claim their child. No manual data entry.
+- **Parent/Guardians Order:** Choose meals for a day, week, or set to repeat for the term/year. Tracks allergies and dietary needs, applies saved preferences automatically.
+- **Suppliers Deliver:** Suppliers get accurate, up-to-date meal lists for each classroom, including absences and allergies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
