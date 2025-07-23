@@ -18,7 +18,6 @@ import {
   BarChart,
   MessageSquareText,
   UserCheck,
-  Utensils,
   Apple,
   ShieldCheck,
   Lock,
@@ -139,7 +138,7 @@ export default function Home() {
       } else {
         throw new Error(`Status ${res.status}`);
       }
-    } catch (err) {
+    } catch {
       toast.error('Oops, try again.');
     } finally {
       setLoading(false);
@@ -360,7 +359,7 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
         Why LunchLog?
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {FEATURES.map((feat, i) => (
+        {FEATURES.map((feat) => (
           <div
             key={feat.title}
             className={
