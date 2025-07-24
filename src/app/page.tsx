@@ -170,7 +170,13 @@ export default function Home() {
             aria-label="Toggle Menu"
             onClick={() => setMobileOpen(!mobileOpen)}
           >
-            <span className="material-icons">{mobileOpen ? 'close' : 'menu'}</span>
+            {mobileOpen ? (
+              // Close icon SVG
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-700"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            ) : (
+              // Hamburger icon SVG
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-700"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            )}
           </button>
         </div>
         {/* MOBILE MENU */}
@@ -383,7 +389,7 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
           <div className="flex-1 flex flex-col gap-2">
             <p className="text-lg font-medium mb-2 text-blue-900">Let’s chat!</p>
             <p className="text-gray-700 mb-4">
-              Fill the form or just <a href="tel:+353871204431" className="text-orange-500 font-semibold">call +353 87 120 4431</a>
+              Fill the form or just <a href="mailto:darren@lunchlog.ie" className="text-orange-500 font-semibold">email darren@lunchlog.ie</a>
             </p>
             <ul className="text-gray-600 text-sm">
               <li>💬 Free consultation and demo</li>
@@ -434,10 +440,10 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
       <footer className="w-full mt-20 py-8 bg-white/90 border-t border-gray-200 text-center text-gray-500 text-sm">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-3">
           <div>
-            <span className="font-bold text-orange-500">LunchLog</span> &copy; {new Date().getFullYear()} Built in Ireland.
+            <span className="font-bold text-orange-500">LunchLog</span> &copy; {new Date().getFullYear()} A product of Syfo Ireland.
           </div>
           <div>
-            <a href="mailto:info@lunchlog.ie" className="hover:text-orange-500">info@lunchlog.ie</a>
+            <a href="mailto:darren@lunchlog.ie" className="hover:text-orange-500">darren@lunchlog.ie</a>
             <span className="mx-2">|</span>
             <a href="tel:+353871204431" className="hover:text-orange-500">+353 87 120 4431</a>
           </div>
