@@ -389,7 +389,7 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
           <div className="flex-1 flex flex-col gap-2">
             <p className="text-lg font-medium mb-2 text-blue-900">Let’s chat!</p>
             <p className="text-gray-700 mb-4">
-              Fill the form or just <a href="mailto:darren@lunchlog.ie" className="text-orange-500 font-semibold">email darren@lunchlog.ie</a>
+              Fill the form or just <a href="mailto:info@lunchlog.ie" className="text-orange-500 font-semibold">email info@lunchlog.ie</a>
             </p>
             <ul className="text-gray-600 text-sm">
               <li>💬 Free consultation and demo</li>
@@ -443,7 +443,7 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
             <span className="font-bold text-orange-500">LunchLog</span> &copy; {new Date().getFullYear()} A product of Syfo Ireland.
           </div>
           <div>
-            <a href="mailto:darren@lunchlog.ie" className="hover:text-orange-500">darren@lunchlog.ie</a>
+            <a href="mailto:info@lunchlog.ie" className="hover:text-orange-500">info@lunchlog.ie</a>
             <span className="mx-2">|</span>
             <a href="tel:+353871204431" className="hover:text-orange-500">+353 87 120 4431</a>
           </div>
