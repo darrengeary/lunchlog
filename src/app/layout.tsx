@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     siteName: "LunchLog",
     images: [
       {
-        url: "/lunch-log.png",
+        url: "/preview.png",
         width: 1200,
         height: 630,
-        alt: "LunchLog logo",
+        alt: "LunchLog preview",
       },
     ],
     locale: "en_IE",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "School Lunch Ordering App Ireland | LunchLog - Government-Funded School Meals",
     description:
       "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers.",
-    images: ["/lunch-log.png"],
+    images: ["/preview.png"],
     site: "@LunchLog",
   },
   alternates: {
