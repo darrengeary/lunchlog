@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "School Lunch Ordering App Ireland | LunchLog",
+  title: "School Lunch Ordering App for Irish Schools | LunchLog",
   description:
-    "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers. Track allergies, dietary needs, and simplify school lunch delivery.",
+    "LunchLog is a school lunch ordering app for Ireland’s government-funded meals. Fast, secure online ordering for parents, teachers, and suppliers.",
   keywords: [
     "school lunch ordering app",
     "Ireland",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     "secure school lunch app",
   ],
   openGraph: {
-    title: "School Lunch Ordering App Ireland | LunchLog",
+    title: "School Lunch Ordering App for Irish Schools | LunchLog",
     description:
-      "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers.",
+      "LunchLog is a school lunch ordering app for Ireland’s government-funded meals. Fast, secure online ordering for parents, teachers, and suppliers.",
     url: "https://lunchlog.ie",
     siteName: "LunchLog",
     images: [
@@ -50,14 +50,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "School Lunch Ordering App Ireland | LunchLog",
+    title: "School Lunch Ordering App for Irish Schools | LunchLog",
     description:
-      "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers.",
+      "LunchLog is a school lunch ordering app for Ireland’s government-funded meals. Fast, secure online ordering for parents, teachers, and suppliers.",
     images: ["/preview.png"],
     site: "@LunchLog",
   },
   alternates: {
     canonical: "https://lunchlog.ie",
+    languages: {
+      en: "https://lunchlog.ie",
+      "en-IE": "https://lunchlog.ie",
+    },
   },
   icons: {
     icon: [
