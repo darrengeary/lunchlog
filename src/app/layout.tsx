@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "secure school lunch app",
   ],
   openGraph: {
-    title: "School Lunch Ordering App Ireland | LunchLog - Government-Funded School Meals",
+    title: "School Lunch Ordering App Ireland | LunchLog",
     description:
       "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers.",
     url: "https://lunchlog.ie",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "School Lunch Ordering App Ireland | LunchLog - Government-Funded School Meals",
+    title: "School Lunch Ordering App Ireland | LunchLog",
     description:
       "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers.",
     images: ["/preview.png"],
