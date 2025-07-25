@@ -412,8 +412,6 @@ Parents/Guardians can choose meals for one day, a week, or set them to repeat fo
           </div>
           <div>
             <a href="mailto:info@lunchlog.ie" className="hover:text-orange-500">info@lunchlog.ie</a>
-            <span className="mx-2">|</span>
-            <a href="tel:+353871204431" className="hover:text-orange-500">+353 87 120 4431</a>
           </div>
           <div>
             <span>Privacy focused.</span>
