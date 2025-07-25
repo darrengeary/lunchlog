@@ -28,54 +28,14 @@ import {
    
 } from "lucide-react";
 const FEATURES = [
-  {
-    icon: <FileCheck className="text-blue-600" size={36} />,
-    title: "Easy & Accessible for Suppliers",
-    desc: "Daily lists, accessible by app or web, with instant updates.",
-    accent: "border-blue-400",
-  },
-  {
-    icon: <BarChart className="text-green-600" size={36} />,
-    title: "No More Paperwork",
-    desc: "All digital, every single order is logged and easy to review.",
-    accent: "border-green-500",
-  },
-  {
-    icon: <ShieldCheck className="text-green-600" size={36} />,
-    title: "Allergy Safety",
-    desc: "Automatically records and communicates dietary needs to suppliers each day.",
-    accent: "border-green-500",
-  },
-  {
-    icon: <Repeat2 className="text-orange-500" size={36} />,
-    title: "Flexible Ordering",
-    desc: "Order for a single day, a week, or set meals to repeat for the whole term or year. Change choices anytime.",
-    accent: "border-orange-400",
-  },
-  {
-    icon: <Clock className="text-orange-500" size={36} />,
-    title: "Saves Teachers Time",
-    desc: "No more handwritten orders, phone calls, or miscommunication.",
-    accent: "border-orange-400",
-  },
-  {
-    icon: <Apple className="text-blue-600" size={36} />,
-    title: "Home-Controlled Orders",
-    desc: "Families can pick favourites or try new options to broaden their child’s diet.",
-    accent: "border-blue-400",
-  },
-  {
-    icon: <Lock className="text-orange-500" size={36} />,
-    title: "Compliant & Secure",
-    desc: "Designed for Ireland’s government-funded school meal program.",
-    accent: "border-orange-400",
-  },
-  {
-    icon: <EyeOff className="text-blue-600" size={36} />,
-    title: "Privacy First",
-    desc: "Suppliers only see pupil numbers and meal choices—never personal details.",
-    accent: "border-blue-400",
-  },
+  { icon: <FileCheck className="text-green-600" size={36} />, title: 'Easy & Accessible for Suppliers', desc: 'Daily lists, accessible by app or web, with instant updates.', accent: 'border-green-500' },
+  { icon: <BarChart className="text-orange-500" size={36} />, title: 'No More Paperwork', desc: 'All digital, every single order is logged and easy to review.', accent: 'border-orange-400' },
+  { icon: <Lock className="text-blue-600" size={36} />, title: 'DSP Compliancy', desc: 'Tracks nutrition, allergies, and dietary needs, with downloadable reports for DSP inspections.', accent: 'border-blue-400' },
+  { icon: <ShieldCheck className="text-orange-500" size={36} />, title: 'Allergy Safety', desc: 'Automatically records and communicates dietary needs to suppliers each day.', accent: 'border-orange-400' },
+  { icon: <Repeat2 className="text-blue-600" size={36} />, title: 'Flexible Ordering', desc: 'Order for a day, a week, or set for the full term. Change anytime.', accent: 'border-blue-400' },
+  { icon: <Clock className="text-green-600" size={36} />, title: 'Saves Teachers Time', desc: 'No more handwritten orders, phone calls, or confusion.', accent: 'border-green-500' },
+  { icon: <Apple className="text-orange-500" size={36} />, title: 'Home-Controlled Orders', desc: 'Parents can pick favourites or broaden their child’s diet.', accent: 'border-orange-400' },
+  { icon: <EyeOff className="text-green-600" size={36} />, title: 'Privacy First', desc: 'Suppliers only see totals — no pupil names or personal info.', accent: 'border-green-500' },
 ];
 
 
@@ -266,6 +226,10 @@ export default function Home() {
                 Manual ordering via email, phone, or spreadsheets
               </li>
               <li className="flex gap-3 items-start">
+                <ShieldCheck className="text-red-400 mt-1" size={22} />
+                Unclear record of nutritional value, allergies & dietary needs compliancy.
+              </li>
+              <li className="flex gap-3 items-start">
                 <XCircle className="text-red-400 mt-1" size={22} />
                 Order errors and missed dietary needs
               </li>
@@ -289,6 +253,10 @@ export default function Home() {
               <li className="flex gap-3 items-start">
                 <Clock className="text-green-500 mt-1" size={22} />
                 Saves on admin hours for schools and suppliers
+              </li>
+              <li className="flex gap-3 items-start">
+                <Lock className="text-orange-400 mt-1" size={22} />
+                Transparent records of nutrition, allergies & dietary needs compliancy
               </li>
               <li className="flex gap-3 items-start">
                 <TrendingDown className="text-orange-500 mt-1" size={22} />
@@ -323,7 +291,7 @@ export default function Home() {
               <UserPlus className="text-orange-400" size={36} />
               <h3 className="text-lg font-bold text-orange-500 mb-2">1. Quick Pupil Setup</h3>
               <p className="text-base text-gray-800">
-                Teachers easily print secure registration letters. Parents/Guardians enter a code to claim their child. No manual data entry.
+                Teachers easily print secure registration letters. Parents/Guardians enter a code to claim their child. No manual data entry. Meal quality and records are sorted for inspections.
               </p>
             </Card>
           </motion.div>
