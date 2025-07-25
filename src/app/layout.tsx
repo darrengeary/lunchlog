@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "School Lunch Ordering App Ireland | LunchLog - Government-Funded School Meals",
+  title: "School Lunch Ordering App Ireland | LunchLog",
   description:
     "LunchLog is Ireland's leading school lunch ordering app for government-funded school meals. Easy online ordering for parents, teachers, and suppliers. Track allergies, dietary needs, and simplify school lunch delivery.",
   keywords: [
